@@ -19,7 +19,7 @@ export type Course = {
 
 export const event = {
   brand: "BK on Hudson",
-  tagline: "Chophouse & Skyline Room",
+  tagline: "welcome to",
   address: "389 Washington Street · Jersey City",
   view: "Table for eight, facing Manhattan",
   dateLine: "Friday, September 18",
@@ -32,92 +32,82 @@ export const courses: Course[] = [
   {
     index: "I",
     label: "First",
-    title: "The Tarts",
-    note: "Served together. There is no choosing. This is not that kind of establishment.",
+    title: "The Appetizers",
+    note: "Served together. There is no choosing. Sorry bout dat.",
     dishes: [
       {
         name: "Zucchini & Whipped Ricotta Tart",
         ingredients: [
           "shaved summer zucchini",
-          "whipped ricotta",
-          "basil pesto",
-          "all-butter puff pastry",
+          "ricotta",
+          "nutless pesto (lmao)",
           "lemon zest",
           "flaked salt",
         ],
-        aside: "Ribbons cut thin enough to qualify as a personality trait.",
-        tags: ["vegetarian", "contains-dairy", "contains-nuts"],
-        source: {
-          label: "after Half Baked Harvest",
-          href: "https://www.halfbakedharvest.com/zucchini-ricotta-pesto-tart/",
-        },
+        aside: "some basic white people shit. perfect for JR",
+        tags: ["vegetarian", "contains-dairy"],
       },
       {
-        name: "Roasted Tomato Tart",
+        name: "Stuffed Mushrooms",
         ingredients: [
-          "slow-roasted heirloom tomato",
-          "ricotta",
-          "pesto",
-          "blistered garlic",
-          "cracked black pepper",
+          "baby bellas",
+          "toasted bread crumbs",
+          "sweet italian sausage",
+          "whatever else katie felt like putting in them",
         ],
-        aside: "The tomatoes were in the oven longer than most of us were at the gym this week.",
-        tags: ["vegetarian", "contains-dairy", "contains-nuts"],
-        source: {
-          label: "after NYT Cooking",
-          href: "https://cooking.nytimes.com/recipes/1020373-roasted-tomato-tart-with-ricotta-and-pesto",
-        },
+        aside: "these are so good. P.S. katie made a few veggie ones for nita",
+        tags: ["contains-dairy"],
       },
     ],
-    footnote: "Quietly modified plates exist. The kitchen keeps notes. The kitchen says nothing.",
+    footnote: "Quietly modified plates exist.",
   },
   {
     index: "II",
     label: "Second",
-    title: "From the Broiler",
-    note: "Choose your cut. Commit to it. Doneness is recorded and shown to the group.",
+    title: "From the Grill",
+    note: "Choose your cut. Doneness will be judged.",
     dishes: [
       {
         name: "New York Strip",
         ingredients: [
-          "dry-aged strip loin",
+          "48-hour aged strip loin",
           "garlic cowboy compound butter",
-          "cast iron char",
+          "sexy ahh grill marks",
           "rosemary",
           "coarse sea salt",
         ],
-        aside: "Named after the city across the water. Eaten in the state with the better view of it.",
+        aside: "if u want it cooked well done ur retarded on god",
       },
       {
         name: "Ribeye",
         ingredients: [
-          "bone-adjacent ribeye",
+          "juicy ribeye like katie's butt",
           "garlic cowboy compound butter",
           "rendered fat cap",
           "thyme",
           "black pepper",
         ],
-        aside: "The marbling is not a flaw. The marbling is the whole argument.",
+        aside: "ben's fav cut of steak",
       },
       {
         name: "Hudson Salmon Filet",
         ingredients: [
           "faroe island salmon",
-          "pesto compound butter",
+          "pesto compound butter (HAS NUTS)",
           "crisped skin",
           "lemon",
         ],
-        aside: "Sourced responsibly, which is to say: not from the Hudson.",
+        aside: "had to buy this stupid bullshit literally just for nita",
         tags: ["pescatarian", "contains-dairy", "contains-nuts"],
       },
     ],
-    footnote: "Compound butter is not a side. Compound butter is a load-bearing element.",
+    footnote: "fat can be removed upon request",
   },
   {
     index: "II½",
     label: "Alongside",
     title: "The Sides",
-    note: "Family style, because plating eight of anything twice is a hostage situation.",
+    note: "Family style, because y'all are our family",
     dishes: [
       {
         name: "Parmesan Smashed Potatoes",
@@ -128,7 +118,7 @@ export const courses: Course[] = [
           "butter",
           "chive",
         ],
-        aside: "Smashed by hand. Firmly. With feeling.",
+        aside: "we smashed on top of the potatoes",
         tags: ["vegetarian", "contains-dairy"],
       },
       {
@@ -140,7 +130,7 @@ export const courses: Course[] = [
           "garlic crouton",
           "lemon",
         ],
-        aside: "Present so everyone can say they had a vegetable.",
+        aside: "homemade caesar. i bet yall aint ever had real caesar before",
         tags: ["vegetarian", "contains-dairy"],
       },
     ],
@@ -149,125 +139,55 @@ export const courses: Course[] = [
     index: "III",
     label: "Third",
     title: "The Finish",
-    note: "Both. Obviously both.",
+    note: "i just finished on you -partynextdoor",
     dishes: [
       {
         name: "Flourless Chocolate Torte",
         ingredients: [
           "dark chocolate",
-          "butter",
-          "egg",
-          "sea salt",
           "whipped cream",
         ],
-        aside: "Structurally a brick. Emotionally a hug.",
+        aside: "dont worry alexis theres no tomatoes in this one",
         tags: ["vegetarian", "contains-dairy"],
       },
       {
-        name: "Cheesecake Bars",
+        name: "Lemon Blueberry Cheesecake Bars",
         ingredients: [
-          "cream cheese",
-          "graham crust",
-          "vanilla bean",
-          "sour cream top",
+          "graham cracker crust",
+          "dingleberries"
         ],
         aside: "Cut into squares so nobody can be accused of taking a slice.",
         tags: ["vegetarian", "contains-dairy"],
       },
     ],
-    footnote: "Coffee available. Judgment for ordering decaf: complimentary.",
+    footnote: "sorry kai thats it. No surprise dommys",
   },
 ];
 
 export const dietKey: Record<DietTag, { mark: string; label: string }> = {
-  pescatarian: { mark: "◇", label: "Pescatarian" },
+  pescatarian: { mark: "◇", label: "Fish" },
   vegetarian: { mark: "✦", label: "Vegetarian" },
   "contains-dairy": { mark: "•", label: "Contains dairy" },
-  "contains-nuts": { mark: "▵", label: "Contains nuts (pine)" },
+  "contains-nuts": { mark: "▵", label: "Pine nuts (salmon butter only)" },
 };
 
-export type Cut = "strip" | "ribeye" | "salmon";
-
-export const cuts: { id: Cut; name: string; blurb: string }[] = [
-  { id: "strip", name: "New York Strip", blurb: "Lean, confident, slightly east-coast." },
-  { id: "ribeye", name: "Ribeye", blurb: "Fat cap included. No notes." },
-  { id: "salmon", name: "Salmon Filet", blurb: "Pesto butter. Crisped skin. Fully respected." },
-];
-
-export const doneness: { id: string; name: string; blurb: string }[] = [
-  { id: "rare", name: "Rare", blurb: "Bold. The kitchen salutes you." },
-  { id: "medium-rare", name: "Medium Rare", blurb: "Correct. Say nothing further." },
-  { id: "medium", name: "Medium", blurb: "A reasonable citizen." },
-  { id: "medium-well", name: "Medium Well", blurb: "We will allow it. Quietly." },
-  { id: "well", name: "Well Done", blurb: "Bold in an entirely different direction." },
-];
-
-export const pairings: { course: string; drink: string; detail: string; note: string }[] = [
-  {
-    course: "First",
-    drink: "The Powerhouse Spritz",
-    detail: "prosecco · aperol · grapefruit peel",
-    note: "Named for the arts district, mixed for the tarts.",
-  },
-  {
-    course: "First",
-    drink: "Dirty Martini, Very",
-    detail: "gin · brine · three olives",
-    note: "Three olives is a snack. Three olives is dinner. Three olives is a warning.",
-  },
-  {
-    course: "Second",
-    drink: "Napa Cabernet",
-    detail: "cassis · cedar · grip",
-    note: "Built for compound butter. Tannin cuts fat. Science.",
-  },
-  {
-    course: "Second",
-    drink: "The Hoboken Manhattan",
-    detail: "rye · sweet vermouth · bitters",
-    note: "A Manhattan made one state over, which we maintain is an improvement.",
-  },
-  {
-    course: "Third",
-    drink: "Tawny Port",
-    detail: "fig · toffee · walnut",
-    note: "For the torte. For the pause. For pretending the night is not ending.",
-  },
-  {
-    course: "Third",
-    drink: "Espresso, Neat",
-    detail: "one ounce · no sugar · no conversation",
-    note: "The 6:00 PM start was generous. This is the enforcement mechanism.",
-  },
-];
-
 export const houseRules: string[] = [
-  "Shoes off. The floors are new and Katie will notice.",
-  "The skyline is behind you. It will still be there. Look at it later.",
-  "Anyone who says \"I'm not really a steak person\" pays for the Uber.",
-  "Phones face down during the first course. Phones out for the second. We want the photos.",
-  "There is no bill. There is only the expectation of reciprocity.",
+  "dylan has to drink every time he says claude, chat, or AI",
+  "we're getting isabel fucked up",
+  "everyone tell katie shes hot because she is",
+  "if you came and ur not hungry literally kill yourself",
+  "take hella photos",
 ];
 
 export const secretMenu = {
-  codeWord: "COWBOY BUTTER",
-  headline: "The Fourth Course",
-  lede: "Not printed. Not advertised. Available only to those who ask correctly.",
+  codeWord: "fuck my chungus life",
+  headline: "YOUV'E WON!",
+  lede: "The secret easter egg of the night...",
   items: [
     {
-      name: "The Extra Cut",
-      ingredients: ["one additional slab of ribeye", "a knowing nod"],
-      aside: "Say the code word to the chef. Out loud. With full commitment. Half-mumbling it gets you salad.",
-    },
-    {
-      name: "Butter Flight",
-      ingredients: ["cowboy butter", "pesto butter", "a spoon", "zero shame"],
-      aside: "Yes, just the butters. We are not going to stop you.",
-    },
-    {
-      name: "The 11 PM Situation",
-      ingredients: ["leftover steak", "griddled bread", "whatever is in the fridge"],
-      aside: "Materializes only if you are still here. Cannot be requested. Can only be earned.",
-    },
+      name: "Special Secret Menu Item",
+      ingredients: ["there is only one of these and you've won it"],
+      aside: "CONGRATULATIONS!",
+    }
   ],
 };

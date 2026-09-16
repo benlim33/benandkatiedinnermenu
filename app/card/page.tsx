@@ -28,8 +28,7 @@ export default function CardPage() {
 
         <p className="mt-6 font-display text-base italic">Scan for the menu</p>
         <p className="mt-1 max-w-[16rem] text-[0.62rem] leading-relaxed text-ink/55">
-          Pick your cut. Pick your doneness. Do not overthink it — although
-          historically, you will.
+          Three courses. One skyline. Tap the sign if you get curious.
         </p>
         <p className="mt-6 font-mono text-[0.5rem] uppercase tracking-[0.18em] text-ink/40">
           {event.address}

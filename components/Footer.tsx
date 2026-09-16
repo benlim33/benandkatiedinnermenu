@@ -43,7 +43,7 @@ export function Footer() {
           </p>
           <p className="mt-6 text-[0.68rem] italic text-bone/25">
             {unlocked
-              ? "You found the fourth course. Use it wisely."
+              ? "You found the Secret Menu!"
               : "Nothing else on this page. Definitely nothing hidden in the sign."}
           </p>
         </div>

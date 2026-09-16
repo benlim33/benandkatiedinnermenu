@@ -78,7 +78,7 @@ export function Courses() {
           <p className="tracking-menu text-[0.52rem] uppercase text-brass-dim">
             Key
           </p>
-          <ul className="mt-4 grid grid-cols-2 gap-2 font-mono text-[0.58rem] uppercase tracking-[0.16em] text-bone/40">
+          <ul className="mt-4 grid grid-cols-1 gap-2 font-mono text-[0.58rem] uppercase tracking-[0.16em] text-bone/40 sm:grid-cols-2">
             {Object.values(dietKey).map((k) => (
               <li key={k.label}>
                 <span className="text-brass-dim">{k.mark}</span> {k.label}
@@ -86,8 +86,8 @@ export function Courses() {
             ))}
           </ul>
           <p className="mt-5 text-[0.7rem] italic leading-relaxed text-bone/35">
-            Substitutions are accommodated without announcement. If you have told
-            us a thing, we have remembered the thing.
+            Nothing on this menu contains nuts except the pesto butter on the
+            salmon. The stuffed mushrooms have sausage in them — veggie ones exist.
           </p>
         </div>
       </Reveal>

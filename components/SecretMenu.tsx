@@ -138,7 +138,7 @@ function SecretSheet() {
                 {secretMenu.codeWord}
               </p>
               <p className="mt-2 text-[0.68rem] text-bone-dim">
-                Tell no one. Or tell everyone — we bought a lot of butter.
+                Scream this word out loud asap!
               </p>
             </div>
 

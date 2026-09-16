@@ -73,7 +73,7 @@ export function Hero() {
                 <span className="text-bone">{guest}</span>, your table is ready.
               </>
             ) : (
-              <>A three-course evening for eight, one river west of the good part.</>
+              <>A three-course steakhouse experience.</>
             )}
           </p>
           <dl className="mt-7 grid grid-cols-1 gap-2 font-mono text-[0.62rem] uppercase tracking-[0.22em] text-bone-dim sm:text-[0.68rem]">
