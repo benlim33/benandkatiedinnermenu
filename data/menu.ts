@@ -174,7 +174,7 @@ export const dietKey: Record<DietTag, { mark: string; label: string }> = {
 export const houseRules: string[] = [
   "dylan has to drink every time he says claude, chat, or AI",
   "we're getting isabel fucked up",
-  "everyone tell katie shes hot because she is",
+  "everyone ask katie to roll her R's",
   "if you came and ur not hungry literally kill yourself",
   "take hella photos",
 ];
