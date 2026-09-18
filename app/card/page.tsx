@@ -28,7 +28,7 @@ export default function CardPage() {
 
         <p className="mt-6 font-display text-base italic">Scan for the menu</p>
         <p className="mt-1 max-w-[16rem] text-[0.62rem] leading-relaxed text-ink/55">
-          Three courses. One skyline. Try tapping the restaurnt name...
+          Three courses. One skyline. Try tapping the restaurant name...
         </p>
         <p className="mt-6 font-mono text-[0.5rem] uppercase tracking-[0.18em] text-ink/40">
           {event.address}
