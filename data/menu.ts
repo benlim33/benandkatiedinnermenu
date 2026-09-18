@@ -36,7 +36,7 @@ export const courses: Course[] = [
     note: "Served together. There is no choosing. Sorry bout dat.",
     dishes: [
       {
-        name: "Zucchini & Whipped Ricotta Tart",
+        name: "Zucchini & Ricotta Tart",
         ingredients: [
           "shaved summer zucchini",
           "ricotta",
@@ -55,7 +55,7 @@ export const courses: Course[] = [
           "sweet italian sausage",
           "whatever else katie felt like putting in them",
         ],
-        aside: "these are so good. P.S. katie made a few veggie ones for nita",
+        aside: "P.S. katie made a few veggie ones for nita",
         tags: ["contains-dairy"],
       },
     ],
@@ -83,18 +83,17 @@ export const courses: Course[] = [
         ingredients: [
           "juicy ribeye like katie's butt",
           "garlic cowboy compound butter",
-          "rendered fat cap",
+          "sexy ahh grill marks",
           "thyme",
           "black pepper",
         ],
         aside: "ben's fav cut of steak",
       },
       {
-        name: "Hudson Salmon Filet",
+        name: "Salmon Filet",
         ingredients: [
-          "faroe island salmon",
+          "Wild caught salmon",
           "pesto compound butter (HAS NUTS)",
-          "crisped skin",
           "lemon",
         ],
         aside: "had to buy this stupid bullshit literally just for nita",
@@ -112,7 +111,6 @@ export const courses: Course[] = [
       {
         name: "Parmesan Smashed Potatoes",
         ingredients: [
-          "yukon gold",
           "aged parmesan",
           "garlic",
           "butter",
@@ -124,10 +122,10 @@ export const courses: Course[] = [
       {
         name: "Kale Caesar",
         ingredients: [
-          "lacinato kale",
-          "caesar dressing",
-          "parmesan snow",
-          "garlic crouton",
+          "kale",
+          "caesar",
+          "parmesan",
+          "routon",
           "lemon",
         ],
         aside: "homemade caesar. i bet yall aint ever had real caesar before",
@@ -154,7 +152,7 @@ export const courses: Course[] = [
         name: "Lemon Blueberry Cheesecake Bars",
         ingredients: [
           "graham cracker crust",
-          "dingleberries"
+          "blueberry compote",
         ],
         aside: "Cut into squares so nobody can be accused of taking a slice.",
         tags: ["vegetarian", "contains-dairy"],
