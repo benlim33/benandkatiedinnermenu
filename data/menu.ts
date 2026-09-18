@@ -41,7 +41,7 @@ export const courses: Course[] = [
           "shaved summer zucchini",
           "ricotta",
           "nutless pesto (lmao)",
-          "lemon zest",
+          "hot honey",
           "flaked salt",
         ],
         aside: "some basic white people shit. perfect for JR",
@@ -71,7 +71,6 @@ export const courses: Course[] = [
         name: "New York Strip",
         ingredients: [
           "48-hour aged strip loin",
-          "garlic cowboy compound butter",
           "sexy ahh grill marks",
           "rosemary",
           "coarse sea salt",
@@ -82,7 +81,6 @@ export const courses: Course[] = [
         name: "Ribeye",
         ingredients: [
           "juicy ribeye like katie's butt",
-          "garlic cowboy compound butter",
           "sexy ahh grill marks",
           "thyme",
           "black pepper",
